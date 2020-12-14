@@ -9,12 +9,12 @@ import { Observable, of } from 'rxjs';
 })
 export class InfoService {
 
-  private infoUrl = 'http://localhost:8080/api';
+  private infoUrl = 'https://diversity-back.herokuapp.com/api/';
 
   constructor(private http: HttpClient) { }
 
   getHeroes(): Observable<Person[]> {
-    return this.http.get<Person[]>("http://localhost:8080/api/people");
+    return this.http.get<Person[]>("https://diversity-back.herokuapp.com/api/people");
   }
 
 }
