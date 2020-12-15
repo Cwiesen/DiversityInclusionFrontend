@@ -20,7 +20,10 @@ export class PersonsComponent implements OnInit {
 
   getPeople() : void {
 
-    this.service.getHeroes().subscribe(all => this.people = all);
+    this.service.getHeroes().subscribe(all =>  {
+      this.people = all
+      console.log("state is " + this.people[0].state);
+    });
   }
   
 
