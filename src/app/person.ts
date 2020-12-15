@@ -1,7 +1,7 @@
 export interface Person {
     id: number;
-    state: string;
-    city: string;
+    stateName: string;
+    cityName: string;
     age: number;
     gender: string;
     ethnicity: string;
