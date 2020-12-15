@@ -20,7 +20,12 @@ export class PersonsComponent implements OnInit {
 
   getPeople() : void {
 
-    this.service.getHeroes().subscribe(all => this.people = all);
+    this.service.getHeroes().subscribe(all =>  {
+      this.people = all
+      if (this.people.length>0) {
+        console.log("this persons state is " + this.people[0].state);
+      }
+    });
   }
   
 
