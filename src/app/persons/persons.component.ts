@@ -15,6 +15,7 @@ export class PersonsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getPeople();
+    
   }
 
   getPeople() : void {
