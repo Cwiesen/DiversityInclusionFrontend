@@ -1,6 +1,38 @@
-<p>demographics works!</p>
-<div *ngFor = "let demo of demographics">
-
-    <p>{{demo.city}}</p>
-
-</div>
+<table>
+    <tr>
+      <th>id</th>
+      <th>year</th>
+      <th>city</th>
+      <th>state</th>
+      <th>percentFemale</th>
+      <th>perecentWhite</th>
+      <th>percentAfricanAmerican</th>
+      <th>percentAsian</th>
+      <th>percentHispanic</th>
+      <th>percentNativeAmerican</th>
+      <th>age0_17</th>
+      <th>age18_24</th>
+      <th>age25_44</th>
+      <th>age45_64</th>
+      <th>age65Plus</th>
+      <th>population</th>
+    </tr>
+    <tr *ngFor = "let demo of demographics">
+      <td>{{demo.id}}</td>
+      <td>{{demo.year}}</td>
+      <td>{{demo.city}}</td>
+      <td>{{demo.state}}</td>
+      <td>{{demo.percentFemale}}</td>
+      <td>{{demo.perecentWhite}}</td>
+      <td>{{demo.percentAfricanAmerican}}</td>
+      <td>{{demo.percentAsian}}</td>
+      <td>{{demo.percentHispanic}}</td>
+      <td>{{demo.percentNativeAmerican}}</td>
+      <td>{{demo.age0_17}}</td>
+      <td>{{demo.age18_24}}</td>
+      <td>{{demo.age25_44}}</td>
+      <td>{{demo.age45_64}}</td>
+      <td>{{demo.age65Plus}}</td>
+      <td>{{demo.population}}</td>
+    </tr>
+  </table>
