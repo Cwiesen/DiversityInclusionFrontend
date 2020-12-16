@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {InfoService} from '../info.service';
+import { ActivatedRoute } from '@angular/router';
+import {Demographic} from '../demographic';
 
 @Component({
   selector: 'app-demographics',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DemographicsComponent implements OnInit {
 
-  constructor() { }
+  demographics: Demographic[];
+
+  constructor(private service: InfoService) { }
 
   ngOnInit(): void {
+    this.getDemographics();
+  }
+
+  getDemographics(): void {
+
+    this.service.getDemographics().subscribe(data => this.demographics = data);
   }
 
 }
