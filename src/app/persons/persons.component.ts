@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Person} from '../person';
 import {InfoService} from '../info.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-persons',
@@ -11,10 +12,16 @@ export class PersonsComponent implements OnInit {
 
   people: Person[];
 
-  constructor(private service: InfoService) { }
+  constructor(private activatedRoute: ActivatedRoute,
+    private service: InfoService) { }
 
   ngOnInit(): void {
-    this.getPeople();
+    this.activatedRoute.data.subscribe((data: { people: Person[] }) => {
+
+      this.people = data.people;
+
+    })
+    //this.getPeople();
     
   }
 
