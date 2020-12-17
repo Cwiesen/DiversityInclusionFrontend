@@ -10,6 +10,7 @@ import { SenatorsComponent } from './senators/senators.component';
 import { MayorsComponent } from './mayors/mayors.component';
 import { HousesComponent } from './houses/houses.component';
 import { GovernorsComponent } from './governors/governors.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GovernorsComponent } from './governors/governors.component';
     SenatorsComponent,
     MayorsComponent,
     HousesComponent,
-    GovernorsComponent
+    GovernorsComponent,
+    DashboardComponent
   ],
   imports: [
     HttpClientModule,
