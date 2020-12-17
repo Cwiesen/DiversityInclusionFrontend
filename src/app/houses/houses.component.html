@@ -1,0 +1,26 @@
+<table>
+    <tr>
+      <th>id</th>
+      <th>state</th>
+      <th>city</th>
+      <th>age</th>
+      <th>gender</th>
+      <th>ethnicity</th>
+      <th>party</th>
+      <th>position</th>
+      <th>startYear</th>
+      <th>endYear</th>
+    </tr>
+    <tr *ngFor = "let person of houses">
+      <td>{{person.id}}</td>
+      <td>{{person.stateName}}</td>
+      <td>{{person.cityName}}</td>
+      <td>{{person.age}}</td>
+      <td>{{person.gender}}</td>
+      <td>{{person.ethnicity}}</td>
+      <td>{{person.party}}</td>
+      <td>{{person.position}}</td>
+      <td>{{person.startYear}}</td>
+      <td>{{person.endYear}}</td>
+    </tr>
+  </table>

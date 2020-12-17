@@ -6,12 +6,20 @@ import { PersonsComponent } from './persons/persons.component';
 import { DemographicsComponent } from './demographics/demographics.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { SenatorsComponent } from './senators/senators.component';
+import { MayorsComponent } from './mayors/mayors.component';
+import { HousesComponent } from './houses/houses.component';
+import { GovernorsComponent } from './governors/governors.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonsComponent,
-    DemographicsComponent
+    DemographicsComponent,
+    SenatorsComponent,
+    MayorsComponent,
+    HousesComponent,
+    GovernorsComponent
   ],
   imports: [
     HttpClientModule,

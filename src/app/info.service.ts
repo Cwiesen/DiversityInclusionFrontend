@@ -20,6 +20,10 @@ export class InfoService {
   getDemographics(): Observable<Demographic[]> {
     return this.http.get<Demographic[]>("https://diversity-back.herokuapp.com/api/demographics");
   }
+  getRoles(role: string): Observable<Person[]> {
+    const url = `${this.infoUrl}/role/${role}`;
+    return this.http.get<Person[]>(url);
+  }
 
   
 
