@@ -35,11 +35,15 @@
   .c {
     background-color:purple;
   }
-  .c {
+  .d {
     background-color:teal;
   }
-  .c {
+  .e {
     background-color:green;
+  }
+
+  .f {
+      background-color: pink;
   }
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
