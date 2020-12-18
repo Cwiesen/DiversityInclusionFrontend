@@ -7,6 +7,7 @@ import {SenatorsComponent} from './senators/senators.component';
 import {HousesComponent} from './houses/houses.component';
 import {MayorsComponent} from './mayors/mayors.component';
 import {GovernorsComponent} from './governors/governors.component';
+import {AnalyticsComponent} from './analytics/analytics.component';
 
 const routes: Routes = [
   { path: 'persons', component: PersonsComponent, 
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'houses', component: HousesComponent},
   { path: 'mayors', component: MayorsComponent},
   { path: 'governors', component: GovernorsComponent},
+  { path: 'analytics', component: AnalyticsComponent},
 ];
 
 @NgModule({

@@ -11,6 +11,7 @@ import { MayorsComponent } from './mayors/mayors.component';
 import { HousesComponent } from './houses/houses.component';
 import { GovernorsComponent } from './governors/governors.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AnalyticsComponent } from './analytics/analytics.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MayorsComponent,
     HousesComponent,
     GovernorsComponent,
-    DashboardComponent
+    DashboardComponent,
+    AnalyticsComponent
   ],
   imports: [
     HttpClientModule,
