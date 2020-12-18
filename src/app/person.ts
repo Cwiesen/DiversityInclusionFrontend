@@ -1,5 +1,6 @@
 export interface Person {
-    id: number;
+    personId: number;
+    name: string;
     stateName: string;
     cityName: string;
     age: number;
