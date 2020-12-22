@@ -23,8 +23,8 @@
   }
   
   /* Style the current/active link */
-  .navbar:active {
-    background-color: #790212;
+  .navbar a:active {
+    background-color: red;
   }
   .b {
     background-color: rgb(5, 3, 105);
