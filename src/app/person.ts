@@ -1,5 +1,5 @@
 export interface Person {
-    personId: number;
+    id: number;
     name: string;
     stateName: string;
     cityName: string;
@@ -10,4 +10,5 @@ export interface Person {
     position: string;
     startYear: number;
     endYear: number;
+    personId: number;
 }
