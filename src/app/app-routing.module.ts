@@ -8,7 +8,7 @@ import {HousesComponent} from './houses/houses.component';
 import {MayorsComponent} from './mayors/mayors.component';
 import {GovernorsComponent} from './governors/governors.component';
 import {AnalyticsComponent} from './analytics/analytics.component';
-
+import {HomeComponent} from './home/home.component';
 const routes: Routes = [
   { path: 'persons', component: PersonsComponent, 
   resolve: { people: PreloadService}
@@ -19,6 +19,9 @@ const routes: Routes = [
   { path: 'mayors', component: MayorsComponent},
   { path: 'governors', component: GovernorsComponent},
   { path: 'analytics', component: AnalyticsComponent},
+  { path: 'home', component: HomeComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+
 ];
 
 @NgModule({

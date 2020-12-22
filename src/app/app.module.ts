@@ -12,6 +12,7 @@ import { HousesComponent } from './houses/houses.component';
 import { GovernorsComponent } from './governors/governors.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AnalyticsComponent } from './analytics/analytics.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AnalyticsComponent } from './analytics/analytics.component';
     HousesComponent,
     GovernorsComponent,
     DashboardComponent,
-    AnalyticsComponent
+    AnalyticsComponent,
+    HomeComponent
   ],
   imports: [
     HttpClientModule,
