@@ -24,26 +24,26 @@
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: #4CAF50;
+    background-color: #020a79;
   }
   .b {
-    background-color: red;
+    background-color: rgb(5, 3, 105);
   }
   .c {
-    background-color:blue;
+    background-color:rgb(2, 2, 73);
   }
   .c {
-    background-color:purple;
+    background-color:rgb(11, 0, 77);
   }
   .d {
-    background-color:teal;
+    background-color:rgb(0, 1, 78);
   }
   .e {
-    background-color:green;
+    background-color:rgb(5, 0, 68);
   }
 
   .f {
-      background-color: pink;
+      background-color: rgb(0, 1, 56);
   }
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
