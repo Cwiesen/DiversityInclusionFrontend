@@ -7,11 +7,21 @@ body, html {
     height: 100%;
   }
 
+table {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    color:black;
+}
+
 html{
     height:100%; 
     width:100%;
     background-size: 100% 100%;
-    background-image: url('https://cdn.wallpapersafari.com/51/21/MxgN3K.jpg');
+    background-image: url('background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
