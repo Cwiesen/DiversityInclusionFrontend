@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+  }
+
+html{
+    height:100%; 
+    width:100%;
+    background-size: 100% 100%;
+    background-image: url('https://cdn.wallpapersafari.com/51/21/MxgN3K.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
