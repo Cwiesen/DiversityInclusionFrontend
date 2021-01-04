@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'governors', component: GovernorsComponent},
   { path: 'analytics', component: AnalyticsComponent},
   { path: 'home', component: HomeComponent},
-  { path: '', redirectTo: '/analytics', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 ];
 
