@@ -4,3 +4,30 @@
     border: 3px solid black;
     padding: 10px;
   }
+
+  .one {
+   margin-left: 40px;
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+  .two {
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+  .three {
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+  .four {
+    width: 20%;
+    display: inline;
+    float: left;
+  }
+  .five {
+    width: 10%;
+    display: inline;
+    float: left;
+  }
